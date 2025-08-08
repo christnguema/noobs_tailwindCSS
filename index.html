@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSY BAR - Landiing Page</title>
+    <link rel="stylesheet" href="src/css/output.css">
+</head>
+<body class=" bg-gray-300">
+    <video src="src/assets/images/welcome.mp4" autoplay loop muted
+            class="absolute -z-10 object-cover w-full h-screen">
+    </video>
+   <main class="container mx-auto min-h-screen flex flex-col">
+        <header class="flex justify-between">
+            <ul class="flex gap-5 text-gray-500 mt-2.5">
+                <li><a class="hover:underline duration-300" href="#">BUSY Bar</a></li>
+                <li><a class="hover:underline duration-300" href="#">Boutique</a></li>
+                <li><a class="hover:underline duration-300" href="#">Téléchargements</a></li>
+                <li><a class="hover:underline duration-300" href="#">Blog</a></li>
+            </ul>
+            <a href="#">
+                <img src="src/assets/images/badge.svg" alt="logo de la page" class="mt-2.5 w-[224px] grayscale-100 hover:grayscale-0 duration-200 hover:-translate-y-1">
+            </a>
+        </header>
+           
+        <section class="mt-[40vh] text-xl  flex flex-col justify-center mx-auto max-w-[550px] grow">
+            <p class="">
+                <span class="font-bold">BUSY Bar</span> est un dispositif multi-outils de productivité avec un écran LED pixelisé. 
+                Minuteur de concentration avec fonction de blocage de distractions sur votre téléphone ou PC.
+                Entièrement personnalisable, open-source et prêt pour la maison connectée. 
+            </p>
+            <button class="text-white bg-orange-500 py-4 px-14 rounded-lg hover:bg-black duration-300 cursor-pointer block mx-auto mt-10">Acheter</button>
+        </section>
+        <section class="grid grid-cols-4 gap-5 text-gray-600 text-sm mt-20">
+            <div class="flex items-start gap-2">
+                <img src="src/assets/images/feature-one.svg" alt="" class="w-14"">
+                <div>
+                    <h3 class="mb-1.5">Outil de productivité</h3>
+                    <p>
+                        Blocage des distractions, messages BUSY personnalisés, minuteur de concentration, synchronisation à la platforme.
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-start gap-2">
+                <img src="src/assets/images/feature-two.svg" alt="" class="w-14"">
+                <div>
+                    <h3 class="mb-1.5">Applications et intégration</h3>
+                    <p>
+                        Bibliothèque d'applications, connexion à des logiciels tiers, intégration avec les évènements du calendrier et les appels.
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-start gap-2">
+                <img src="src/assets/images/feature-three.svg" alt="" class="w-14"">
+                <div>
+                    <h3 class="mb-1.5">Support maison connectée</h3>
+                    <p>
+                        Connectez-vous à Google home et Apple home via le protocole Matter.
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-start gap-2">
+                <img src="src/assets/images/feature-four.svg" alt="" class="w-14">
+                <div>
+                    <h3 class="mb-1.5">Pour les développeurs</h3>
+                    <p>
+                        API HTTP ouverte, SDK open-source, Bibliothèques python/Go/java sans verouillage.
+                    </p>
+                </div>
+            </div>
+        </section>
+   </main>
+  
+</body>
+</html>
